@@ -12,6 +12,4 @@ phases:
             - mvn clean install
 artifacts:
     files:
-        - target/account-example-0.0.1-SNAPSHOT.jar
-        - appspec.yml
-        - scripts/*
+        - target/<APP_NAME>-0.0.1-SNAPSHOT.jar
